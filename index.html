@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="blog,wicks,wickc,wick,wickc@outlook.com,hexo" />
 
 
 
@@ -81,16 +81,16 @@
 
 
 
-<meta name="description" content="wicks Blog">
+<meta name="description" content="记录 分享">
 <meta property="og:type" content="website">
 <meta property="og:title" content="wicks&#39;Blog">
 <meta property="og:url" content="https://blog.wickc.xyz/index.html">
 <meta property="og:site_name" content="wicks&#39;Blog">
-<meta property="og:description" content="wicks Blog">
+<meta property="og:description" content="记录 分享">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="wicks&#39;Blog">
-<meta name="twitter:description" content="wicks Blog">
+<meta name="twitter:description" content="记录 分享">
 
 
 
@@ -100,7 +100,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -192,6 +192,16 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -268,7 +278,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.wickc.xyz/2018/08/09/hello/">
+    <link itemprop="mainEntityOfPage" href="https://blog.wickc.xyz/title.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wicks">
@@ -287,7 +297,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/08/09/hello/" itemprop="url">hello</a></h1>
+                <a class="post-title-link" href="/title.html" itemprop="url">hello</a></h1>
         
 
         <div class="post-meta">
@@ -318,9 +328,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/08/09/hello/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/08/09/hello/" itemprop="commentCount"></span>
+                <a href="/title.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/title.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -328,7 +337,7 @@
 
           
           
-             <span id="/2018/08/09/hello/" class="leancloud_visitors" data-flag-title="hello">
+             <span id="/title.html" class="leancloud_visitors" data-flag-title="hello">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -421,6 +430,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -436,7 +447,7 @@
                 alt="wicks" />
             
               <p class="site-author-name" itemprop="name">wicks</p>
-              <p class="site-description motion-element" itemprop="description">wicks Blog</p>
+              <p class="site-description motion-element" itemprop="description">记录 分享</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -529,7 +540,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -539,17 +550,13 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
-
-
+  <div class="footer-custom">Hosted by Github</div>
 
 
         
@@ -670,14 +677,6 @@
 
   
 
-    
-      <script id="dsq-count-scr" src="https://wicks-blog.disqus.com/count.js" async></script>
-    
-
-    
-
-  
-
 
 
 
@@ -693,12 +692,38 @@
 
 
 
+  
 
 
 
 
 
 
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'VLIOtK6fzQdDyx9KNoa5VkKA-gzGzoHsz',
+        appKey: 'c6aTzYRarLzALoBU2erbtNme',
+        placeholder: '来了就评论一下呀,讨论讨论什么的',
+        avatar:'mp',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
