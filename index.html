@@ -282,7 +282,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.wickc.xyz/title.html">
+    <link itemprop="mainEntityOfPage" href="https://blog.wickc.xyz/posts/undefined.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wicks">
@@ -301,7 +301,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/title.html" itemprop="url">hello</a></h1>
+                <a class="post-title-link" href="/posts/undefined.html" itemprop="url">hello</a></h1>
         
 
         <div class="post-meta">
@@ -332,8 +332,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/title.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/title.html" itemprop="commentCount"></span>
+                <a href="/posts/undefined.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/undefined.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -341,7 +341,7 @@
 
           
           
-             <span id="/title.html" class="leancloud_visitors" data-flag-title="hello">
+             <span id="/posts/undefined.html" class="leancloud_visitors" data-flag-title="hello">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -405,8 +405,15 @@
       
         
           
-            
           
+          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/undefined.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -762,6 +769,15 @@
         guest_info:guest,
         pageSize:'10' || 10,
     });
+
+    var infoEle = document.querySelector('#comments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
+      infoEle.childNodes.forEach(function(item) {
+        item.parentNode.removeChild(item);
+      });
+    }
+
+
   </script>
 
 

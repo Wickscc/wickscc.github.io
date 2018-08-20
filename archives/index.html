@@ -304,7 +304,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/title.html" itemprop="url">
+            <a class="post-title-link" href="/posts/undefined.html" itemprop="url">
               
                 <span itemprop="name">hello</span>
               
@@ -650,6 +650,15 @@
         guest_info:guest,
         pageSize:'10' || 10,
     });
+
+    var infoEle = document.querySelector('#comments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
+      infoEle.childNodes.forEach(function(item) {
+        item.parentNode.removeChild(item);
+      });
+    }
+
+
   </script>
 
 
