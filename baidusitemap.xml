@@ -4,12 +4,27 @@
 
     
   <url>
-    <loc>https://blog.wickc.xyz/2018/08/20/Hello%20world/</loc>
-    <lastmod>2018-08-20T07:53:33.991Z</lastmod>
+    <loc>https://blog.wickc.xyz/2018/08/20/Hexo%E7%9A%84%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2018-08-20T08:10:44.866Z</lastmod>
     <data>
         <display>
-        <title></title>
-        <pubTime>2018-08-20T07:53:33.991Z</pubTime>
+        <title>Hexo的搭建日志</title>
+        <pubTime>2018-08-20T08:10:44.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.wickc.xyz/2018/08/20/HelloWorld/</loc>
+    <lastmod>2018-08-20T08:06:44.357Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-08-20T08:06:15.000Z</pubTime>
         
          
            

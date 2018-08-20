@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.wickc.xyz/2018/08/20/Hello%20world/</loc>
+    <loc>https://blog.wickc.xyz/2018/08/20/Hexo%E7%9A%84%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97/</loc>
     
-    <lastmod>2018-08-20T07:53:33.991Z</lastmod>
+    <lastmod>2018-08-20T08:10:44.866Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.wickc.xyz/2018/08/20/HelloWorld/</loc>
+    
+    <lastmod>2018-08-20T08:06:44.357Z</lastmod>
     
   </url>
   

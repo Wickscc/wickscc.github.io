@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2018%2F08%2F20%2FHello%20world%2F</url>
-    <content type="text"><![CDATA[HELLO WORLD标签（空格分隔）： 关于 在又一次的时间漩涡中存活下来的Wicks又回来啦这一次,希望我能活得更久一点嘿嘿]]></content>
+    <title><![CDATA[Hexo的搭建日志]]></title>
+    <url>%2F2018%2F08%2F20%2FHexo%E7%9A%84%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F08%2F20%2FHelloWorld%2F</url>
+    <content type="text"><![CDATA[在又一次的时间漩涡中存活下来的Wicks又回来啦 这一次,希望我能活得更久一点 嘿嘿]]></content>
   </entry>
 </search>
