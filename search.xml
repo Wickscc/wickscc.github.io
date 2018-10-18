@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Windows10连不上L2TP怎么办?]]></title>
+    <url>%2F2018%2F10%2F18%2FWindows10%E8%BF%9E%E4%B8%8D%E4%B8%8AL2tp%E6%80%8E%E4%B9%88%E5%8A%9E%2FWindows10%2F</url>
+    <content type="text"><![CDATA[单击“开始”，单击“运行”，键入“regedit”，然后单击“确定” 找到下面的注册表子项，然后单击它：HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\Parameters 在“编辑”菜单上，单击“新建”-&gt;“DWORD值” 在“名称”框中，键入“ProhibitIpSec” 在“数值数据”框中，键入“1”，然后单击“确定”6. 退出注册表编辑器，然后重新启动计算 还是连接不上。 最后在 https://community.barracudanetworks.com/forum/index.php?/topic/26466-ipsec-windows-10-not-working/ 成功找到解决办法。 意思是在注册表 “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent”，新建 一个 dword类型的键 AssumeUDPEncapsulationContextOnSendRule 值为2。 重启，成功解决问题。 可能第一步改的ProhibitIpSec也是需要的，可以两个键值都设置一下。]]></content>
+      <tags>
+        <tag>注册表,Windows10,vpn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Windows10连不上L2tp怎么办]]></title>
+    <url>%2F2018%2F10%2F18%2FWindows10%E8%BF%9E%E4%B8%8D%E4%B8%8AL2tp%E6%80%8E%E4%B9%88%E5%8A%9E%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[使用FRP来对内网服务进行映射]]></title>
     <url>%2F2018%2F09%2F03%2F%E4%BD%BF%E7%94%A8FRP%E6%9D%A5%E5%AF%B9%E5%86%85%E7%BD%91%E6%9C%8D%E5%8A%A1%E8%BF%9B%E8%A1%8C%E6%98%A0%E5%B0%84%2F</url>
     <content type="text"></content>

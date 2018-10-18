@@ -4,12 +4,29 @@
 
     
   <url>
-    <loc>https://blog.wickc.xyz/2018/08/20/HelloWorld/</loc>
-    <lastmod>2018-09-29T12:37:56.000Z</lastmod>
+    <loc>https://blog.wickc.xyz/2018/10/18/Windows10%E8%BF%9E%E4%B8%8D%E4%B8%8AL2tp%E6%80%8E%E4%B9%88%E5%8A%9E/Windows10/</loc>
+    <lastmod>2018-10-18T00:37:51.458Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2018-08-20T08:06:15.000Z</pubTime>
+        <title>Windows10连不上L2TP怎么办?</title>
+        <pubTime>2018-10-18T00:37:51.458Z</pubTime>
+        
+        <tag>注册表,Windows10,vpn</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.wickc.xyz/2018/10/18/Windows10%E8%BF%9E%E4%B8%8D%E4%B8%8AL2tp%E6%80%8E%E4%B9%88%E5%8A%9E/</loc>
+    <lastmod>2018-10-18T00:37:51.458Z</lastmod>
+    <data>
+        <display>
+        <title>Windows10连不上L2tp怎么办</title>
+        <pubTime>2018-10-18T00:37:01.000Z</pubTime>
         
          
            
@@ -55,6 +72,21 @@
         <display>
         <title>使用SoftEther来搭建一个梯子</title>
         <pubTime>2018-09-03T09:42:36.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.wickc.xyz/2018/08/20/HelloWorld/</loc>
+    <lastmod>2018-09-29T12:37:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-08-20T08:06:15.000Z</pubTime>
         
          
            

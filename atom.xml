@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.wickc.xyz/"/>
-  <updated>2018-09-29T12:37:56.000Z</updated>
+  <updated>2018-10-18T00:37:51.458Z</updated>
   <id>https://blog.wickc.xyz/</id>
   
   <author>
@@ -15,6 +15,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows10连不上L2TP怎么办?</title>
+    <link href="https://blog.wickc.xyz/2018/10/18/Windows10%E8%BF%9E%E4%B8%8D%E4%B8%8AL2tp%E6%80%8E%E4%B9%88%E5%8A%9E/Windows10/"/>
+    <id>https://blog.wickc.xyz/2018/10/18/Windows10连不上L2tp怎么办/Windows10/</id>
+    <published>2018-10-18T00:37:51.458Z</published>
+    <updated>2018-10-18T00:37:51.458Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>单击“开始”，单击“运行”，键入“regedit”，然后单击“确定”</li><li>找到下面的注册表子项，然后单击它：HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\Parameters</li><li>在“编辑”菜单上，单击“新建”-&gt;“DWORD值”</li><li>在“名称”框中，键入“ProhibitIpSec”</li><li>在“数值数据”框中，键入“1”，然后单击“确定”6. 退出注册表编辑器，然后重新启动计算</li></ol><p>还是连接不上。</p><p>最后在</p><p><a href="https://community.barracudanetworks.com/forum/index.php?/topic/26466-ipsec-windows-10-not-working/" target="_blank" rel="noopener">https://community.barracudanetworks.com/forum/index.php?/topic/26466-ipsec-windows-10-not-working/</a></p><p>成功找到解决办法。</p><p><img src="https://github.com/Wickscc/wickscc.github.io/raw/master/images/AVU8%5DOO%602H%7BEK6RR67V62K0.png" alt=""></p><p>意思是在注册表  “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent”，新建 一个  dword类型的键     AssumeUDPEncapsulationContextOnSendRule   值为2。</p><p>重启，成功解决问题。</p><p>可能第一步改的ProhibitIpSec也是需要的，可以两个键值都设置一下。</p><p><img src="https://github.com/Wickscc/wickscc.github.io/raw/master/images/L2tp%20Temp%20image.png" alt="enter description here"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;单击“开始”，单击“运行”，键入“regedit”，然后单击“确定”&lt;/li&gt;
+&lt;li&gt;找到下面的注册表子项，然后单击它：HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\Parameters
+      
+    
+    </summary>
+    
+    
+      <category term="注册表,Windows10,vpn" scheme="https://blog.wickc.xyz/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8-Windows10-vpn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows10连不上L2tp怎么办</title>
+    <link href="https://blog.wickc.xyz/2018/10/18/Windows10%E8%BF%9E%E4%B8%8D%E4%B8%8AL2tp%E6%80%8E%E4%B9%88%E5%8A%9E/"/>
+    <id>https://blog.wickc.xyz/2018/10/18/Windows10连不上L2tp怎么办/</id>
+    <published>2018-10-18T00:37:01.000Z</published>
+    <updated>2018-10-18T00:37:51.458Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>使用FRP来对内网服务进行映射</title>

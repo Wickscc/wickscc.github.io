@@ -1,0 +1,18 @@
+<hr>
+<p>title: Windows10连不上L2TP怎么办?<br>tags: ‘注册表,Windows10,vpn’<br>grammar_cjkRuby: true</p>
+<h2 id="abbrlink-28451"><a href="#abbrlink-28451" class="headerlink" title="abbrlink: 28451"></a>abbrlink: 28451</h2><ol>
+<li>单击“开始”，单击“运行”，键入“regedit”，然后单击“确定”</li>
+<li>找到下面的注册表子项，然后单击它：HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\Parameters</li>
+<li>在“编辑”菜单上，单击“新建”-&gt;“DWORD值”</li>
+<li>在“名称”框中，键入“ProhibitIpSec”</li>
+<li>在“数值数据”框中，键入“1”，然后单击“确定”6. 退出注册表编辑器，然后重新启动计算</li>
+</ol>
+<p>还是连接不上。</p>
+<p>最后在</p>
+<p><a href="https://community.barracudanetworks.com/forum/index.php?/topic/26466-ipsec-windows-10-not-working/">https://community.barracudanetworks.com/forum/index.php?/topic/26466-ipsec-windows-10-not-working/</a></p>
+<p>成功找到解决办法。</p>
+<p><img src="https://github.com/Wickscc/wickscc.github.io/raw/master/images/AVU8%5DOO%602H%7BEK6RR67V62K0.png" alt=""></p>
+<p>意思是在注册表  “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent”，新建 一个  dword类型的键     AssumeUDPEncapsulationContextOnSendRule   值为2。</p>
+<p>重启，成功解决问题。</p>
+<p>可能第一步改的ProhibitIpSec也是需要的，可以两个键值都设置一下。</p>
+<p><img src="https://github.com/Wickscc/wickscc.github.io/raw/master/images/L2tp%20Temp%20image.png" alt="enter description here"></p>
