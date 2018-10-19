@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.wickc.xyz/2018/10/19/Vmware15%20%E6%BF%80%E6%B4%BB%E7%A0%81/</loc>
+    <loc>https://blog.wickc.xyz/2018/10/19/VMware15%E6%BF%80%E6%B4%BB%E7%A0%81/VMware15%E6%BF%80%E6%B4%BB%E7%A0%81/</loc>
     
-    <lastmod>2018-10-19T03:17:19.894Z</lastmod>
+    <lastmod>2018-10-19T03:32:10.158Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.wickc.xyz/2018/10/19/VMware15%E6%BF%80%E6%B4%BB%E7%A0%81/</loc>
+    
+    <lastmod>2018-10-19T03:32:10.158Z</lastmod>
     
   </url>
   
@@ -37,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://blog.wickc.xyz/2018/08/20/HelloWorld/</loc>
+    <loc>https://blog.wickc.xyz/2018/08/20/Hexo%E7%9A%84%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97/</loc>
     
     <lastmod>2018-09-29T12:37:56.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.wickc.xyz/2018/08/20/Hexo%E7%9A%84%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://blog.wickc.xyz/2018/08/20/HelloWorld/</loc>
     
     <lastmod>2018-09-29T12:37:56.000Z</lastmod>
     
