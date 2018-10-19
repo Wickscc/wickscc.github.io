@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Vmware15 激活码]]></title>
+    <url>%2F2018%2F10%2F19%2FVMware15%E6%BF%80%E6%B4%BB%E7%A0%81%2FVmware15%20%E6%BF%80%E6%B4%BB%E7%A0%81%2F</url>
+    <content type="text"><![CDATA[1234567891011121314151617181920VG5HH-D6E04-0889Y-QXZET-QGUC8CY55A-F6G80-H85HQ-WNN5X-W38W4AC11H-4HZ05-08EDQ-APQGX-YCUC8ZG780-8EZ9M-M89LY-M5PEG-W2AZ8ZF3NU-D6XEJ-48E7Q-27YNC-PC8EDAV5M0-F4W8M-088PZ-36ZNV-NFHE2AU15R-A0Z4N-M88HY-HQYNX-QYKD6VY110-4RD50-H886P-5FMN9-WPUUDGF302-4HW44-H88DQ-WZXNV-Q3R94UA752-0KF9J-0811Y-MQNEX-ZUAGFVG5HH-D6E04-0889Y-QXZET-QGUC8CY55A-F6G80-H85HQ-WNN5X-W38W4AC11H-4HZ05-08EDQ-APQGX-YCUC8ZG780-8EZ9M-M89LY-M5PEG-W2AZ8ZF3NU-D6XEJ-48E7Q-27YNC-PC8EDAV5M0-F4W8M-088PZ-36ZNV-NFHE2AU15R-A0Z4N-M88HY-HQYNX-QYKD6VY110-4RD50-H886P-5FMN9-WPUUDGF302-4HW44-H88DQ-WZXNV-Q3R94UA752-0KF9J-0811Y-MQNEX-ZUAGF]]></content>
+      <tags>
+        <tag>vmware, 激活码</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[VMware15激活码]]></title>
+    <url>%2F2018%2F10%2F19%2FVMware15%E6%BF%80%E6%B4%BB%E7%A0%81%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[Windows10连不上L2TP怎么办?]]></title>
     <url>%2F2018%2F10%2F18%2FWindows10%E8%BF%9E%E4%B8%8D%E4%B8%8AL2tp%E6%80%8E%E4%B9%88%E5%8A%9E%2FWindows10%2F</url>
     <content type="text"><![CDATA[单击“开始”，单击“运行”，键入“regedit”，然后单击“确定” 找到下面的注册表子项，然后单击它：HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\Parameters 在“编辑”菜单上，单击“新建”-&gt;“DWORD值” 在“名称”框中，键入“ProhibitIpSec” 在“数值数据”框中，键入“1”，然后单击“确定”6. 退出注册表编辑器，然后重新启动计算 还是连接不上。 最后在 https://community.barracudanetworks.com/forum/index.php?/topic/26466-ipsec-windows-10-not-working/ 成功找到解决办法。 意思是在注册表 “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent”，新建 一个 dword类型的键 AssumeUDPEncapsulationContextOnSendRule 值为2。 重启，成功解决问题。 可能第一步改的ProhibitIpSec也是需要的，可以两个键值都设置一下。]]></content>
