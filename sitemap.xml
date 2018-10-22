@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.wickc.xyz//404.html</loc>
+    
+    <lastmod>2018-10-22T02:04:11.215Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.wickc.xyz/post/11909.html</loc>
     
     <lastmod>2018-10-19T03:37:38.907Z</lastmod>
@@ -16,14 +23,7 @@
   </url>
   
   <url>
-    <loc>https://blog.wickc.xyz/post/56426.html</loc>
-    
-    <lastmod>2018-09-29T12:37:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.wickc.xyz/post/11197.html</loc>
+    <loc>https://blog.wickc.xyz/baidu_verify_mO4BnChfaU.html</loc>
     
     <lastmod>2018-09-29T12:37:56.000Z</lastmod>
     
@@ -37,6 +37,13 @@
   </url>
   
   <url>
+    <loc>https://blog.wickc.xyz/post/56426.html</loc>
+    
+    <lastmod>2018-09-29T12:37:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.wickc.xyz/post/18396.html</loc>
     
     <lastmod>2018-09-29T12:37:56.000Z</lastmod>
@@ -44,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://blog.wickc.xyz/baidu_verify_mO4BnChfaU.html</loc>
+    <loc>https://blog.wickc.xyz/post/11197.html</loc>
     
     <lastmod>2018-09-29T12:37:56.000Z</lastmod>
     
@@ -65,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://blog.wickc.xyz/tags/index-1.html</loc>
+    <loc>https://blog.wickc.xyz/tags/index.html</loc>
     
     <lastmod>2018-09-29T12:37:56.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.wickc.xyz/tags/index.html</loc>
+    <loc>https://blog.wickc.xyz/tags/index-1.html</loc>
     
     <lastmod>2018-09-29T12:37:56.000Z</lastmod>
     
